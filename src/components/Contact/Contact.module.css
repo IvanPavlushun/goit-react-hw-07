@@ -1,0 +1,29 @@
+.box{
+    display: flex;
+    max-width: 300px;
+    justify-content: space-between;
+    border: 1px solid black;
+    padding: 10px;
+    align-items: center;
+    border-radius: 10px;
+}
+.list {
+   list-style: none;
+   padding: 0;
+   display: flex;
+   flex-direction: column;
+   gap: 8px;
+}
+
+.button{
+    height: 32px;
+    font-weight: bold;
+    font-size: 12px;
+    border-radius: 2px;
+    cursor: pointer;
+}
+
+.listItem {
+    display: flex;
+    gap: 4px;
+}
