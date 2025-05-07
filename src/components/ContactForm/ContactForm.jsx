@@ -2,7 +2,7 @@ import { Formik, Form, Field, ErrorMessage } from "formik";
 import * as Yup from "yup";
 import s from "./ContactForm.module.css";
 import { useDispatch, useSelector } from "react-redux";
-import { selectFilteredContacts } from "../../redux/selectors";
+import { selectFilteredContacts } from "../../redux/contactsSlice";
 import { addContactThunk } from "../../redux/contactsOps";
 
 
